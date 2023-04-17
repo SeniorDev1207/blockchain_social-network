@@ -46,7 +46,7 @@ class App extends Component {
       }
       this.setState({loading:false})
     } else{
-      window.alert('SocialNetwork contract not deployed to detected network.')
+      window.alert('SocialNetwork contract not deployed to detected network!')
     }
   }
 
